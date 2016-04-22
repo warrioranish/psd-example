@@ -1,0 +1,356 @@
+<!DOCTYPE Html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="psd.css">
+</head>
+<body>
+	<div class="container" style="padding: 0;">
+		<div class="col-lg-12" id="head">
+      <button type="button" class="btn btn-primary btn-lg pull-left" data-toggle="modal" data-target="#myModal" style="margin:5px 5px 0px 0px; 5px; padding: 5px 16px;">
+                          Register
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+                              </div>
+                              <div class="modal-body">
+                                  <form>
+                                    First Name: <br>
+                                    <input type="text" name="firstname" value="firstname"><br><br>
+                                    Last Name: <br>
+                                    <input type="text" name="lastname" value="secondname"><br><br>
+                                    Age:<input type="integer" name="age" value=""><br><br>
+
+                                    Email: <input type="text" name="email" value="dadelo@gmail.com"><br><br>
+                                    Gender:<br>
+                                    <input type="radio" name="sex" value="male" checked> Male <br>
+                                    <input type="radio" name="sex" value="female"> Female <br><br>
+                                    Select a UserName: <input type="text" name="usernme" ><br>
+
+                                  </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- modal for login -->
+
+                        <button type="button" class="btn btn-primary btn-lg pull-left" data-toggle="modal" data-target="#myModal1" style="margin-top: 5px; padding: 5px 16px;">
+                          Login
+                        </button>
+
+                        <!-- Modal1 -->
+                        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Sign in</h4>
+                              </div>
+                              <div class="modal-body">
+                                  <form>
+                                    Email or UserName: <input type="text" name="usernme" value="warrior.anish5" ><br><br>
+                                    Password <input type="password" name="password" value=""><br>
+                            
+                                  </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Log in</button>
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+      </div>   
+      <div class="col-lg-12">             
+			<ul class="contact pull-right">
+				<li>Home</li>
+				<li>Site map</li>
+				<li>Support</li>
+				<li><i class="glyphicon glyphicon-user" id="headicon"></i> 9806672743</li>
+			</ul>
+
+			<div class="col-lg-12" style="margin-bottom: 20px; padding-left: 0; padding-right: 0;">
+				<div class="logo pull-left">
+					<h3 style="margin: 0;"><i class="glyphicon glyphicon-tower"></i>Online Paathshala</h3>
+				</div>
+				<div class="searchbar pull-right">
+					<input type="text" class="input-xxlarge search-query" value="type your search here...">
+					<button type="submit" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="fuck" style="background-color: rgb(44, 89, 164);">Search</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-12 navigation">
+			<nav class="navbar navbar-inverse" id="navigation" style="background-color: rgb(44, 89, 164); border: 0;">
+                    <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- <a class="navbar-brand" href="#"><i class="glyphicon glyphicon-comment" style="color: white;"></i>&nbsp;Magazine</a> -->
+                        </div>
+                        <ul class="nav navbar-nav nav-list" id="nav-list">
+                                <li role="presentation"><a href="#">Home</a></li>
+                                <li role="presentation">
+                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role=""                          aria-expanded="false">
+                                      Courses
+                                    </a>
+                                      <ul class="dropdown-menu" role="menu">
+                                          <li><a href="#">math</a></li>
+                                          <li><a href="#">physics</a></li>
+                                          <li><a href="#">chemistry</a></li>
+                                          <li><a href="#">biology</a></li>
+                                        </ul>
+                                </li>
+                                <li role="presentation"><a href="#">Blogs</a></li>
+                                <li role="presentation">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role=""                          aria-expanded="false">
+                                      Features
+                                    </a>
+                                      <ul class="dropdown-menu" role="menu">
+                                          <li><a href="#">Syllabus</a></li>
+                                          <li><a href="#">Tutorials</a></li>
+                                          <li><a href="#">lectures</a></li>
+                                          <li><a href="#">MyShow</a></li>
+                                        </ul>
+                                </li>
+                                <li role="presentation"><a href="#">Pages</a></li>
+                                <li role="presentation">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role=""                          aria-expanded="false">
+                                      Books
+                                  </a>
+                                      <ul class="dropdown-menu" role="menu">
+                                          <li><a href="#">Textbook</a></li>
+                                          <li><a href="#">Referencebooks</a></li>
+                                          <li><a href="#">Comics</a></li>
+                                          <li><a href="#">Novels</a></li>
+                                        </ul>
+                                </li>
+                                <li role="presentation">
+                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="" aria-expanded="false">
+                                      Universities
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                      <li><a href="#">Pokhara</a></li>
+                                      <li><a href="#">Kathmandu</a></li>
+                                      <li><a href="#">Trivuwan</a></li>
+                                      <li><a href="#">Purvanchal</a></li>
+                                    </ul>
+                                </li>
+                        </ul>
+                                  <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary btn-lg pull-right" data-toggle="modal" data-target="#myModal2" style="margin-top: 8px; padding: 5px 16px;">
+                          About Us
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Online Pathshala</h4>
+                              </div>
+                              <div class="modal-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+		</div>
+	   <div class="col-lg-12 slider">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="slide1.jpg" alt="...">
+      <div class="carousel-caption">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+    <div class="item">
+      <img src="slide2.jpg" alt="...">
+      <div class="carousel-caption">
+ 		        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+           
+      </div>
+    </div>
+    <div class="item">
+      <img src="slide3.jpg" alt="...">
+      <div class="carousel-caption">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          
+      </div>
+    </div>
+    <div class="item">
+      <img src="slide4.jpg" alt="...">
+      <div class="carousel-caption">
+          
+      </div>
+    </div>
+
+  </div> 
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> 
+  <div class="col-md-4" style="padding: 0;">
+      <h4 class="headings"><strong>Tutorials</strong></h4>
+      <div class="embed-responsive embed-responsive-16by9">
+        <video width="320" height="240" controls style=" padding: 0px; margin-top: 10px;">
+          <source src="The Great Gatsby - Young and Beautiful - YouTube [720p].mp4" type="video/mp4"> 
+          Your browser does not support the video tag.
+        </video>
+      </div>
+  </div>
+  <div class="col-md-4">
+    <h4 class="headings"><strong>Daily news</strong></h4>
+    <div class="row">
+      <ul style="list-style: none; margin-top: 10px;">
+        <li>
+            <div class="row" style=" box-shadow: 0px 5px 5px black;">
+              <a href="#" class="thumbnail" style=" border: 0px;">
+                <img src="photo.jpg" alt="" style="float: left; margin-right: 10px;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+              </a>
+            </div>
+        </li><br><br>
+        <li>
+          <div class="row" style=" box-shadow: 0px 5px 5px black;">
+            <a href="#" class="thumbnail" style=" border: 0px;">
+              <img src="photo.jpg" alt="..." style="float: left; margin-right: 10px">
+              <p>Excepteur sint occaecat cupidatat non
+              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </a>
+          </div>
+        </li><br><br>
+        <li>
+          <div class="row" style=" box-shadow: 0px 5px 5px black;">
+            <a href="#" class="thumbnail" style=" border: 0px;">
+              <img src="photo.jpg" alt="..." style="float: left; margin-right: 10px;">
+              <p>
+              <em>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat</em>
+              </p>
+            </a>
+          </div>
+
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="col-md-4">
+    <h4 class="headings" ><strong>hot stuff</strong></h4>
+    <div class="row" style=" margin: 20px 0px 0px 40px;">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne" style="background-color: #337AB7;">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          News
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo" style="background-color: #337AB7;">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Notice
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree" style="background-color: #337AB7;">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Info
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  
+  </div>
+
+
+</div>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+	background-image: url(213.jpg);
+}
+.container{
+	background-color: white;
+}
+.contact{
+	margin: 15px;
+}
+.contact li{
+	display: inline-block;
+	list-style: none;
+	border-right: 1px black solid;
+}
+
+.contact li:last-child{
+	border: 0;
+
+.contact li:nth-child(3){
+	border: 0;
+
+}
+
+.glyphicon-tower{
+	margin-right: 5px;
+}
+.logo{
+	margin: 0;
+}
+.searchbar{
+	margin-top: 5px;
+}
+
+#nav-list li a{
+ 	color: white;
+}
+
+.headings{
+	text-align: middle;
+}
+
+
+
